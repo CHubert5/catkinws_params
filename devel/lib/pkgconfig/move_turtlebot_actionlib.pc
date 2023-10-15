@@ -1,0 +1,8 @@
+prefix=/home/maciek/workspace/catkinws_param/devel
+
+Name: move_turtlebot_actionlib
+Description: Description of move_turtlebot_actionlib
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

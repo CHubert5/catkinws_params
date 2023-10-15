@@ -1,0 +1,223 @@
+AMCL:
+do_beamskip: False
+tf_broadcast: True
+force_update_after_initialpose: False
+force_update_after_set_map: False
+use_map_topic: False
+first_map_only: False
+restore_defaults: False
+min_particles: 500
+max_particles: 3000
+resample_interval: 1
+laser_max_beams: 180
+laser_model_type: likelihood_field
+odom_model_type: diff
+odom_frame_id: odom
+base_frame_id: base_footprint
+global_frame_id: map
+kld_err: 0.02
+kld_z: 0.99
+update_min_d: 0.2
+update_min_a: 0.2
+transform_tolerance: 0.5
+recovery_alpha_slow: 0.0
+recovery_alpha_fast: 0.0
+beam_skip_distance: 0.5
+beam_skip_threshold: 0.3
+gui_publish_rate: 50.0
+save_pose_rate: 0.5
+laser_min_range: -1.0
+laser_max_range: 3.5
+laser_z_hit: 0.5
+laser_z_short: 0.05
+laser_z_max: 0.05
+laser_z_rand: 0.5
+laser_sigma_hit: 0.2
+laser_lambda_short: 0.1
+laser_likelihood_max_dist: 2.0
+odom_alpha1: 0.1
+odom_alpha2: 0.1
+odom_alpha3: 0.1
+odom_alpha4: 0.1
+odom_alpha5: 0.2
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'min_particles': 500, 'max_particles': 3000, 'kld_err': 0.02, 'kld_z': 0.99, 'update_min_d': 0.2, 'update_min_a': 0.2, 'resample_interval': 1, 'transform_tolerance': 0.5, 'recovery_alpha_slow': 0.0, 'recovery_alpha_fast': 0.0, 'do_beamskip': False, 'beam_skip_distance': 0.5, 'beam_skip_threshold': 0.3, 'tf_broadcast': True, 'force_update_after_initialpose': False, 'force_update_after_set_map': False, 'gui_publish_rate': 50.0, 'save_pose_rate': 0.5, 'use_map_topic': False, 'first_map_only': False, 'laser_min_range': -1.0, 'laser_max_range': 3.5, 'laser_max_beams': 180, 'laser_z_hit': 0.5, 'laser_z_short': 0.05, 'laser_z_max': 0.05, 'laser_z_rand': 0.5, 'laser_sigma_hit': 0.2, 'laser_lambda_short': 0.1, 'laser_likelihood_max_dist': 2.0, 'laser_model_type': 'likelihood_field', 'odom_model_type': 'diff', 'odom_alpha1': 0.1, 'odom_alpha2': 0.1, 'odom_alpha3': 0.1, 'odom_alpha4': 0.1, 'odom_alpha5': 0.2, 'odom_frame_id': 'odom', 'base_frame_id': 'base_footprint', 'global_frame_id': 'map', 'restore_defaults': False}
+
+
+
+
+
+GAZEBO:
+auto_disable_bodies: False
+sor_pgs_precon_iters: 0
+sor_pgs_iters: 150
+max_contacts: 20
+time_step: 0.001
+max_update_rate: 1000.0
+gravity_x: 0.0
+gravity_y: 0.0
+gravity_z: -9.8
+sor_pgs_w: 1.4
+sor_pgs_rms_error_tol: 0.0
+cfm: 1e-05
+erp: 0.2
+contact_surface_layer: 0.01
+contact_max_correcting_vel: 2000.0
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'time_step': 0.001, 'max_update_rate': 1000.0, 'gravity_x': 0.0, 'gravity_y': 0.0, 'gravity_z': -9.8, 'auto_disable_bodies': False, 'sor_pgs_precon_iters': 0, 'sor_pgs_iters': 150, 'sor_pgs_w': 1.4, 'sor_pgs_rms_error_tol': 0.0, 'cfm': 1e-05, 'erp': 0.2, 'contact_surface_layer': 0.01, 'contact_max_correcting_vel': 2000.0, 'max_contacts': 20}
+
+
+
+
+
+MOVE_BASE:
+recovery_behavior_enabled: True
+clearing_rotation_allowed: True
+shutdown_costmaps: False
+make_plan_clear_costmap: True
+make_plan_add_unreachable_goal: True
+restore_defaults: False
+max_planning_retries: -1
+base_global_planner: navfn/NavfnROS
+base_local_planner: dwa_local_planner/DWAPlannerROS
+planner_frequency: 5.0
+controller_frequency: 10.0
+planner_patience: 5.0
+controller_patience: 15.0
+conservative_reset_dist: 3.0
+oscillation_timeout: 10.0
+oscillation_distance: 0.2
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'base_global_planner': 'navfn/NavfnROS', 'base_local_planner': 'dwa_local_planner/DWAPlannerROS', 'planner_frequency': 5.0, 'controller_frequency': 10.0, 'planner_patience': 5.0, 'controller_patience': 15.0, 'max_planning_retries': -1, 'conservative_reset_dist': 3.0, 'recovery_behavior_enabled': True, 'clearing_rotation_allowed': True, 'shutdown_costmaps': False, 'oscillation_timeout': 10.0, 'oscillation_distance': 0.2, 'make_plan_clear_costmap': True, 'make_plan_add_unreachable_goal': True, 'restore_defaults': False}
+
+
+
+
+
+MOVE_BASE/DWAPLANNERROS:
+prune_plan: False
+use_dwa: True
+restore_defaults: False
+vx_samples: 20
+vy_samples: 1
+vth_samples: 40
+max_vel_trans: 0.22
+min_vel_trans: 0.11
+max_vel_x: 0.22
+min_vel_x: -0.22
+max_vel_y: 0.0
+min_vel_y: 0.0
+max_vel_theta: 2.75
+min_vel_theta: 1.37
+acc_lim_x: 2.5
+acc_lim_y: 0.0
+acc_lim_theta: 3.2
+acc_lim_trans: 0.1
+xy_goal_tolerance: 0.05
+yaw_goal_tolerance: 0.17
+trans_stopped_vel: 0.1
+theta_stopped_vel: 0.1
+sim_time: 6.0
+sim_granularity: 0.025
+angular_sim_granularity: 0.1
+path_distance_bias: 32.0
+goal_distance_bias: 20.0
+occdist_scale: 0.02
+twirling_scale: 0.0
+stop_time_buffer: 0.2
+oscillation_reset_dist: 0.05
+oscillation_reset_angle: 0.2
+forward_point_distance: 0.325
+scaling_speed: 0.25
+max_scaling_factor: 0.2
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'max_vel_trans': 0.22, 'min_vel_trans': 0.11, 'max_vel_x': 0.22, 'min_vel_x': -0.22, 'max_vel_y': 0.0, 'min_vel_y': 0.0, 'max_vel_theta': 2.75, 'min_vel_theta': 1.37, 'acc_lim_x': 2.5, 'acc_lim_y': 0.0, 'acc_lim_theta': 3.2, 'acc_lim_trans': 0.1, 'prune_plan': False, 'xy_goal_tolerance': 0.05, 'yaw_goal_tolerance': 0.17, 'trans_stopped_vel': 0.1, 'theta_stopped_vel': 0.1, 'sim_time': 6.0, 'sim_granularity': 0.025, 'angular_sim_granularity': 0.1, 'path_distance_bias': 32.0, 'goal_distance_bias': 20.0, 'occdist_scale': 0.02, 'twirling_scale': 0.0, 'stop_time_buffer': 0.2, 'oscillation_reset_dist': 0.05, 'oscillation_reset_angle': 0.2, 'forward_point_distance': 0.325, 'scaling_speed': 0.25, 'max_scaling_factor': 0.2, 'vx_samples': 20, 'vy_samples': 1, 'vth_samples': 40, 'use_dwa': True, 'restore_defaults': False}
+
+
+
+
+
+MOVE_BASE/GLOBAL_COSTMAP:
+width: 10
+height: 10
+footprint: [[-0.24,-0.102],[-0.24,0.102],[0.176,0.102],[0.176,-0.102]]
+transform_tolerance: 0.5
+update_frequency: 10.0
+publish_frequency: 10.0
+resolution: 0.05
+origin_x: 0.0
+origin_y: 0.0
+robot_radius: 0.46
+footprint_padding: 0.01
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'transform_tolerance': 0.5, 'update_frequency': 10.0, 'publish_frequency': 10.0, 'width': 10, 'height': 10, 'resolution': 0.05, 'origin_x': 0.0, 'origin_y': 0.0, 'footprint': '[[-0.24,-0.102],[-0.24,0.102],[0.176,0.102],[0.176,-0.102]]', 'robot_radius': 0.46, 'footprint_padding': 0.01}
+
+
+
+
+
+MOVE_BASE/GLOBAL_COSTMAP/INFLATION_LAYER:
+enabled: True
+inflate_unknown: False
+cost_scaling_factor: 3.0
+inflation_radius: 1.0
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'enabled': True, 'cost_scaling_factor': 3.0, 'inflation_radius': 1.0, 'inflate_unknown': False}
+
+
+
+
+
+MOVE_BASE/GLOBAL_COSTMAP/OBSTACLE_LAYER:
+enabled: True
+footprint_clearing_enabled: True
+combination_method: 1
+max_obstacle_height: 2.0
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'enabled': True, 'footprint_clearing_enabled': True, 'max_obstacle_height': 2.0, 'combination_method': 1}
+
+
+
+
+
+MOVE_BASE/GLOBAL_COSTMAP/STATIC_LAYER:
+enabled: True
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'enabled': True}
+
+
+
+
+
+MOVE_BASE/LOCAL_COSTMAP:
+width: 3
+height: 3
+footprint: [[-0.24,-0.102],[-0.24,0.102],[0.176,0.102],[0.176,-0.102]]
+transform_tolerance: 0.5
+update_frequency: 10.0
+publish_frequency: 10.0
+resolution: 0.05
+origin_x: 0.0
+origin_y: 0.0
+robot_radius: 0.46
+footprint_padding: 0.01
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'transform_tolerance': 0.5, 'update_frequency': 10.0, 'publish_frequency': 10.0, 'width': 3, 'height': 3, 'resolution': 0.05, 'origin_x': 0.0, 'origin_y': 0.0, 'footprint': '[[-0.24,-0.102],[-0.24,0.102],[0.176,0.102],[0.176,-0.102]]', 'robot_radius': 0.46, 'footprint_padding': 0.01}
+
+
+
+
+
+MOVE_BASE/LOCAL_COSTMAP/INFLATION_LAYER:
+enabled: True
+inflate_unknown: False
+cost_scaling_factor: 3.0
+inflation_radius: 1.0
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'enabled': True, 'cost_scaling_factor': 3.0, 'inflation_radius': 1.0, 'inflate_unknown': False}
+
+
+
+
+
+MOVE_BASE/LOCAL_COSTMAP/OBSTACLE_LAYER:
+enabled: True
+footprint_clearing_enabled: True
+combination_method: 1
+max_obstacle_height: 2.0
+groups: {'id': 0, 'parent': 0, 'name': 'Default', 'type': '', 'state': True, 'groups': {}, 'parameters': {}, 'enabled': True, 'footprint_clearing_enabled': True, 'max_obstacle_height': 2.0, 'combination_method': 1}
+
+
+
+
+

@@ -1,0 +1,8 @@
+prefix=/home/maciek/workspace/catkinws_param/devel
+
+Name: homework4
+Description: Description of homework4
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: actionlib geometry_msgs move_base_msgs nav_msgs rospy tf2_ros
