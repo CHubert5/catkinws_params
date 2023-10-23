@@ -1,8 +1,0 @@
-prefix=/home/maciek/workspace/catkinws_params/devel
-
-Name: gazebo_simulation_scene
-Description: Description of gazebo_simulation_scene
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

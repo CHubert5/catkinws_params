@@ -1,8 +1,0 @@
-prefix=/home/maciek/workspace/catkinws_params/devel
-
-Name: zapis_parametrow
-Description: Description of zapis_parametrow
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
