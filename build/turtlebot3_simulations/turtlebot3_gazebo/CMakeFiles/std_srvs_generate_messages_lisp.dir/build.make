@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_param/src
+CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_params/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_param/build
+CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_params/build
 
 # Utility rule file for std_srvs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/std_srvs_generate_messages_l
 .PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
-	cd /home/maciek/workspace/catkinws_param/build/turtlebot3_simulations/turtlebot3_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/maciek/workspace/catkinws_params/build/turtlebot3_simulations/turtlebot3_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend:
-	cd /home/maciek/workspace/catkinws_param/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_param/src /home/maciek/workspace/catkinws_param/src/turtlebot3_simulations/turtlebot3_gazebo /home/maciek/workspace/catkinws_param/build /home/maciek/workspace/catkinws_param/build/turtlebot3_simulations/turtlebot3_gazebo /home/maciek/workspace/catkinws_param/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maciek/workspace/catkinws_params/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_params/src /home/maciek/workspace/catkinws_params/src/turtlebot3_simulations/turtlebot3_gazebo /home/maciek/workspace/catkinws_params/build /home/maciek/workspace/catkinws_params/build/turtlebot3_simulations/turtlebot3_gazebo /home/maciek/workspace/catkinws_params/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
 

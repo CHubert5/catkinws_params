@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_param/src
+CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_params/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_param/build
+CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_params/build
 
 # Utility rule file for sensor_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ gazebo_simulation_scene/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build: 
 .PHONY : gazebo_simulation_scene/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 
 gazebo_simulation_scene/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
-	cd /home/maciek/workspace/catkinws_param/build/gazebo_simulation_scene && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/maciek/workspace/catkinws_params/build/gazebo_simulation_scene && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : gazebo_simulation_scene/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 gazebo_simulation_scene/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend:
-	cd /home/maciek/workspace/catkinws_param/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_param/src /home/maciek/workspace/catkinws_param/src/gazebo_simulation_scene /home/maciek/workspace/catkinws_param/build /home/maciek/workspace/catkinws_param/build/gazebo_simulation_scene /home/maciek/workspace/catkinws_param/build/gazebo_simulation_scene/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maciek/workspace/catkinws_params/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_params/src /home/maciek/workspace/catkinws_params/src/gazebo_simulation_scene /home/maciek/workspace/catkinws_params/build /home/maciek/workspace/catkinws_params/build/gazebo_simulation_scene /home/maciek/workspace/catkinws_params/build/gazebo_simulation_scene/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gazebo_simulation_scene/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 

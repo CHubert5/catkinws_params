@@ -1,4 +1,4 @@
-prefix=/home/maciek/workspace/catkinws_param/install
+prefix=/home/maciek/workspace/catkinws_params/install
 
 Name: turtlebot3_msgs
 Description: Description of turtlebot3_msgs

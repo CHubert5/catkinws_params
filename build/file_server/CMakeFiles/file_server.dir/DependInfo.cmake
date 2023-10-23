@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/maciek/workspace/catkinws_param/src/file_server/src/file_server.cpp" "/home/maciek/workspace/catkinws_param/build/file_server/CMakeFiles/file_server.dir/src/file_server.cpp.o"
+  "/home/maciek/workspace/catkinws_params/src/file_server/src/file_server.cpp" "/home/maciek/workspace/catkinws_params/build/file_server/CMakeFiles/file_server.dir/src/file_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/maciek/workspace/catkinws_param/devel/include"
+  "/home/maciek/workspace/catkinws_params/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

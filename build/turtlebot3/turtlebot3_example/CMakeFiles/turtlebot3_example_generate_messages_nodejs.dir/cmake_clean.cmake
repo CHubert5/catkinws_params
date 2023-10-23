@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Action.js"
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.js"
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.js"
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionResult.js"
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Feedback.js"
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Goal.js"
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Result.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Action.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionResult.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Feedback.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Goal.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Result.js"
   "CMakeFiles/turtlebot3_example_generate_messages_nodejs"
 )
 

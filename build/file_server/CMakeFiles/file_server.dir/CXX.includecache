@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/maciek/workspace/catkinws_param/devel/include/file_server/GetBinaryFile.h
+/home/maciek/workspace/catkinws_params/devel/include/file_server/GetBinaryFile.h
 ros/service_traits.h
 -
 file_server/GetBinaryFileRequest.h
@@ -14,7 +14,7 @@ file_server/GetBinaryFileRequest.h
 file_server/GetBinaryFileResponse.h
 -
 
-/home/maciek/workspace/catkinws_param/devel/include/file_server/GetBinaryFileRequest.h
+/home/maciek/workspace/catkinws_params/devel/include/file_server/GetBinaryFileRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/maciek/workspace/catkinws_param/devel/include/file_server/GetBinaryFileResponse.h
+/home/maciek/workspace/catkinws_params/devel/include/file_server/GetBinaryFileResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/maciek/workspace/catkinws_param/devel/include/file_server/SaveBinaryFile.h
+/home/maciek/workspace/catkinws_params/devel/include/file_server/SaveBinaryFile.h
 ros/service_traits.h
 -
 file_server/SaveBinaryFileRequest.h
@@ -54,7 +54,7 @@ file_server/SaveBinaryFileRequest.h
 file_server/SaveBinaryFileResponse.h
 -
 
-/home/maciek/workspace/catkinws_param/devel/include/file_server/SaveBinaryFileRequest.h
+/home/maciek/workspace/catkinws_params/devel/include/file_server/SaveBinaryFileRequest.h
 string
 -
 vector
@@ -70,7 +70,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/maciek/workspace/catkinws_param/devel/include/file_server/SaveBinaryFileResponse.h
+/home/maciek/workspace/catkinws_params/devel/include/file_server/SaveBinaryFileResponse.h
 string
 -
 vector
@@ -86,7 +86,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/maciek/workspace/catkinws_param/src/file_server/src/file_server.cpp
+/home/maciek/workspace/catkinws_params/src/file_server/src/file_server.cpp
 ros/ros.h
 -
 ros/package.h

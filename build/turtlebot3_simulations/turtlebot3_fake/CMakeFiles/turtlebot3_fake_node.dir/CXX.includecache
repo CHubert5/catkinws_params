@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_msgs/SensorState.h
+/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_msgs/SensorState.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/maciek/workspace/catkinws_param/src/turtlebot3_simulations/turtlebot3_fake/include/turtlebot3_fake/turtlebot3_fake.h
+/home/maciek/workspace/catkinws_params/src/turtlebot3_simulations/turtlebot3_fake/include/turtlebot3_fake/turtlebot3_fake.h
 math.h
 -
 ros/ros.h
@@ -50,9 +50,9 @@ nav_msgs/Odometry.h
 turtlebot3_msgs/SensorState.h
 -
 turtlebot3_fake.h
-/home/maciek/workspace/catkinws_param/src/turtlebot3_simulations/turtlebot3_fake/include/turtlebot3_fake/turtlebot3_fake.h
+/home/maciek/workspace/catkinws_params/src/turtlebot3_simulations/turtlebot3_fake/include/turtlebot3_fake/turtlebot3_fake.h
 
-/home/maciek/workspace/catkinws_param/src/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp
+/home/maciek/workspace/catkinws_params/src/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp
 turtlebot3_fake/turtlebot3_fake.h
 -
 

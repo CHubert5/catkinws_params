@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/lib/move_turtlebot_actionlib/move_turtlebot"
-  "/home/maciek/workspace/catkinws_param/devel/lib/move_turtlebot_actionlib/move_turtlebot.pdb"
+  "/home/maciek/workspace/catkinws_params/devel/lib/move_turtlebot_actionlib/move_turtlebot"
+  "/home/maciek/workspace/catkinws_params/devel/lib/move_turtlebot_actionlib/move_turtlebot.pdb"
   "CMakeFiles/move_turtlebot.dir/src/move_turtlebot.cpp.o"
 )
 

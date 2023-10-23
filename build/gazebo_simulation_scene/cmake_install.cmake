@@ -1,8 +1,8 @@
-# Install script for directory: /home/maciek/workspace/catkinws_param/src/gazebo_simulation_scene
+# Install script for directory: /home/maciek/workspace/catkinws_params/src/gazebo_simulation_scene
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_param/install")
+  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_params/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/build/gazebo_simulation_scene/catkin_generated/installspace/gazebo_simulation_scene.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/build/gazebo_simulation_scene/catkin_generated/installspace/gazebo_simulation_scene.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_simulation_scene/cmake" TYPE FILE FILES
-    "/home/maciek/workspace/catkinws_param/build/gazebo_simulation_scene/catkin_generated/installspace/gazebo_simulation_sceneConfig.cmake"
-    "/home/maciek/workspace/catkinws_param/build/gazebo_simulation_scene/catkin_generated/installspace/gazebo_simulation_sceneConfig-version.cmake"
+    "/home/maciek/workspace/catkinws_params/build/gazebo_simulation_scene/catkin_generated/installspace/gazebo_simulation_sceneConfig.cmake"
+    "/home/maciek/workspace/catkinws_params/build/gazebo_simulation_scene/catkin_generated/installspace/gazebo_simulation_sceneConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_simulation_scene" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/src/gazebo_simulation_scene/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_simulation_scene" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/src/gazebo_simulation_scene/package.xml")
 endif()
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/maciek/workspace/catkinws_param/src/move_turtlebot_actionlib/src/move_turtlebot.cpp
+/home/maciek/workspace/catkinws_params/src/move_turtlebot_actionlib/src/move_turtlebot.cpp
 ros/ros.h
 -
 move_base_msgs/MoveBaseAction.h

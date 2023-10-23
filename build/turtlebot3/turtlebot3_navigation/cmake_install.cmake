@@ -1,8 +1,8 @@
-# Install script for directory: /home/maciek/workspace/catkinws_param/src/turtlebot3/turtlebot3_navigation
+# Install script for directory: /home/maciek/workspace/catkinws_params/src/turtlebot3/turtlebot3_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_param/install")
+  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_params/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation/cmake" TYPE FILE FILES
-    "/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
-    "/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
+    "/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
+    "/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/src/turtlebot3/turtlebot3_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/src/turtlebot3/turtlebot3_navigation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE DIRECTORY FILES
-    "/home/maciek/workspace/catkinws_param/src/turtlebot3/turtlebot3_navigation/launch"
-    "/home/maciek/workspace/catkinws_param/src/turtlebot3/turtlebot3_navigation/maps"
-    "/home/maciek/workspace/catkinws_param/src/turtlebot3/turtlebot3_navigation/param"
-    "/home/maciek/workspace/catkinws_param/src/turtlebot3/turtlebot3_navigation/rviz"
+    "/home/maciek/workspace/catkinws_params/src/turtlebot3/turtlebot3_navigation/launch"
+    "/home/maciek/workspace/catkinws_params/src/turtlebot3/turtlebot3_navigation/maps"
+    "/home/maciek/workspace/catkinws_params/src/turtlebot3/turtlebot3_navigation/param"
+    "/home/maciek/workspace/catkinws_params/src/turtlebot3/turtlebot3_navigation/rviz"
     )
 endif()
 

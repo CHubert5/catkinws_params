@@ -67,14 +67,14 @@ set(homework4_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(homework4_SOURCE_PREFIX /home/maciek/workspace/catkinws_param/src/turtlebot3_slam1)
-  set(homework4_DEVEL_PREFIX /home/maciek/workspace/catkinws_param/devel)
+  set(homework4_SOURCE_PREFIX /home/maciek/workspace/catkinws_params/src/turtlebot3_slam1)
+  set(homework4_DEVEL_PREFIX /home/maciek/workspace/catkinws_params/devel)
   set(homework4_INSTALL_PREFIX "")
   set(homework4_PREFIX ${homework4_DEVEL_PREFIX})
 else()
   set(homework4_SOURCE_PREFIX "")
   set(homework4_DEVEL_PREFIX "")
-  set(homework4_INSTALL_PREFIX /home/maciek/workspace/catkinws_param/install)
+  set(homework4_INSTALL_PREFIX /home/maciek/workspace/catkinws_params/install)
   set(homework4_PREFIX ${homework4_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/maciek/workspace/catkinws_param/install/lib;/home/maciek/workspace/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/maciek/workspace/catkinws_params/install/lib;/home/maciek/workspace/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

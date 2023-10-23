@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_param/src
+CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_params/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_param/build
+CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_params/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ file_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build: rosgrap
 .PHONY : file_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 
 file_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/maciek/workspace/catkinws_param/build/file_server && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/maciek/workspace/catkinws_params/build/file_server && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : file_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 file_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/maciek/workspace/catkinws_param/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_param/src /home/maciek/workspace/catkinws_param/src/file_server /home/maciek/workspace/catkinws_param/build /home/maciek/workspace/catkinws_param/build/file_server /home/maciek/workspace/catkinws_param/build/file_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maciek/workspace/catkinws_params/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_params/src /home/maciek/workspace/catkinws_params/src/file_server /home/maciek/workspace/catkinws_params/build /home/maciek/workspace/catkinws_params/build/file_server /home/maciek/workspace/catkinws_params/build/file_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : file_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

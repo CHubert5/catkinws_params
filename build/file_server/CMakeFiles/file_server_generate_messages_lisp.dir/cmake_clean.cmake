@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/share/common-lisp/ros/file_server/srv/GetBinaryFile.lisp"
-  "/home/maciek/workspace/catkinws_param/devel/share/common-lisp/ros/file_server/srv/SaveBinaryFile.lisp"
+  "/home/maciek/workspace/catkinws_params/devel/share/common-lisp/ros/file_server/srv/GetBinaryFile.lisp"
+  "/home/maciek/workspace/catkinws_params/devel/share/common-lisp/ros/file_server/srv/SaveBinaryFile.lisp"
   "CMakeFiles/file_server_generate_messages_lisp"
 )
 

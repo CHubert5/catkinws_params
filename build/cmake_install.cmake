@@ -1,8 +1,8 @@
-# Install script for directory: /home/maciek/workspace/catkinws_param/src
+# Install script for directory: /home/maciek/workspace/catkinws_params/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_param/install")
+  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_params/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,105 +49,105 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/maciek/workspace/catkinws_param/install/_setup_util.py")
+   "/home/maciek/workspace/catkinws_params/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_param/install" TYPE PROGRAM FILES "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_params/install" TYPE PROGRAM FILES "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/maciek/workspace/catkinws_param/install/env.sh")
+   "/home/maciek/workspace/catkinws_params/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_param/install" TYPE PROGRAM FILES "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_params/install" TYPE PROGRAM FILES "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/maciek/workspace/catkinws_param/install/setup.bash;/home/maciek/workspace/catkinws_param/install/local_setup.bash")
+   "/home/maciek/workspace/catkinws_params/install/setup.bash;/home/maciek/workspace/catkinws_params/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_param/install" TYPE FILE FILES
-    "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/setup.bash"
-    "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_params/install" TYPE FILE FILES
+    "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/setup.bash"
+    "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/maciek/workspace/catkinws_param/install/setup.sh;/home/maciek/workspace/catkinws_param/install/local_setup.sh")
+   "/home/maciek/workspace/catkinws_params/install/setup.sh;/home/maciek/workspace/catkinws_params/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_param/install" TYPE FILE FILES
-    "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/setup.sh"
-    "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_params/install" TYPE FILE FILES
+    "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/setup.sh"
+    "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/maciek/workspace/catkinws_param/install/setup.zsh;/home/maciek/workspace/catkinws_param/install/local_setup.zsh")
+   "/home/maciek/workspace/catkinws_params/install/setup.zsh;/home/maciek/workspace/catkinws_params/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_param/install" TYPE FILE FILES
-    "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/setup.zsh"
-    "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_params/install" TYPE FILE FILES
+    "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/setup.zsh"
+    "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/maciek/workspace/catkinws_param/install/.rosinstall")
+   "/home/maciek/workspace/catkinws_params/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_param/install" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/maciek/workspace/catkinws_params/install" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/maciek/workspace/catkinws_param/build/gtest/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3_msgs/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_navigation/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/file_server/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/move_turtlebot_actionlib/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/gazebo_simulation_scene/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/rplidar_ros/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3_slam1/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_bringup/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_example/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
-  include("/home/maciek/workspace/catkinws_param/build/zapis_parametrow/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/gtest/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3_msgs/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_navigation/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/file_server/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/move_turtlebot_actionlib/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/gazebo_simulation_scene/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/rplidar_ros/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3_slam1/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_bringup/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_example/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
+  include("/home/maciek/workspace/catkinws_params/build/zapis_parametrow/cmake_install.cmake")
 
 endif()
 
@@ -159,5 +159,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/maciek/workspace/catkinws_param/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/maciek/workspace/catkinws_params/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

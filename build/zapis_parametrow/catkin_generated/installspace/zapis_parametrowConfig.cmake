@@ -67,14 +67,14 @@ set(zapis_parametrow_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(zapis_parametrow_SOURCE_PREFIX /home/maciek/workspace/catkinws_param/src/zapis_parametrow)
-  set(zapis_parametrow_DEVEL_PREFIX /home/maciek/workspace/catkinws_param/devel)
+  set(zapis_parametrow_SOURCE_PREFIX /home/maciek/workspace/catkinws_params/src/zapis_parametrow)
+  set(zapis_parametrow_DEVEL_PREFIX /home/maciek/workspace/catkinws_params/devel)
   set(zapis_parametrow_INSTALL_PREFIX "")
   set(zapis_parametrow_PREFIX ${zapis_parametrow_DEVEL_PREFIX})
 else()
   set(zapis_parametrow_SOURCE_PREFIX "")
   set(zapis_parametrow_DEVEL_PREFIX "")
-  set(zapis_parametrow_INSTALL_PREFIX /home/maciek/workspace/catkinws_param/install)
+  set(zapis_parametrow_INSTALL_PREFIX /home/maciek/workspace/catkinws_params/install)
   set(zapis_parametrow_PREFIX ${zapis_parametrow_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/maciek/workspace/catkinws_param/install/lib;/home/maciek/workspace/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/maciek/workspace/catkinws_params/install/lib;/home/maciek/workspace/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_msgs/SensorState.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_msgs/Sound.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_msgs/VersionInfo.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_msgs/SensorState.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_msgs/Sound.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_msgs/VersionInfo.h"
   "CMakeFiles/turtlebot3_msgs_generate_messages_cpp"
 )
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_msgs/msg/_SensorState.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_msgs/msg/_Sound.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_msgs/msg/_VersionInfo.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_msgs/msg/__init__.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_msgs/msg/_SensorState.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_msgs/msg/_Sound.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_msgs/msg/_VersionInfo.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_msgs/msg/__init__.py"
   "CMakeFiles/turtlebot3_msgs_generate_messages_py"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/maciek/workspace/catkinws_param/devel
+prefix=/home/maciek/workspace/catkinws_params/devel
 
 Name: move_turtlebot_actionlib
 Description: Description of move_turtlebot_actionlib

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_param/src
+CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_params/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_param/build
+CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_params/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/maciek/workspace/catkinws_param/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/maciek/workspace/catkinws_param/build/CMakeFiles /home/maciek/workspace/catkinws_param/build/turtlebot3/turtlebot3_teleop/CMakeFiles/progress.marks
-	cd /home/maciek/workspace/catkinws_param/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_teleop/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maciek/workspace/catkinws_param/build/CMakeFiles 0
+	cd /home/maciek/workspace/catkinws_params/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/maciek/workspace/catkinws_params/build/CMakeFiles /home/maciek/workspace/catkinws_params/build/turtlebot3/turtlebot3_teleop/CMakeFiles/progress.marks
+	cd /home/maciek/workspace/catkinws_params/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_teleop/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maciek/workspace/catkinws_params/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/maciek/workspace/catkinws_param/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_teleop/clean
+	cd /home/maciek/workspace/catkinws_params/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_teleop/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/maciek/workspace/catkinws_param/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_teleop/preinstall
+	cd /home/maciek/workspace/catkinws_params/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_teleop/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/maciek/workspace/catkinws_param/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_teleop/preinstall
+	cd /home/maciek/workspace/catkinws_params/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_teleop/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/maciek/workspace/catkinws_param/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/maciek/workspace/catkinws_params/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/maciek/workspace/catkinws_param/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/maciek/workspace/catkinws_params/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

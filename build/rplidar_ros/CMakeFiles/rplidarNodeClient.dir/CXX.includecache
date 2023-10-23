@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/maciek/workspace/catkinws_param/src/rplidar_ros/src/client.cpp
+/home/maciek/workspace/catkinws_params/src/rplidar_ros/src/client.cpp
 ros/ros.h
-/home/maciek/workspace/catkinws_param/src/rplidar_ros/src/ros/ros.h
+/home/maciek/workspace/catkinws_params/src/rplidar_ros/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/maciek/workspace/catkinws_param/src/rplidar_ros/src/sensor_msgs/LaserScan.h
+/home/maciek/workspace/catkinws_params/src/rplidar_ros/src/sensor_msgs/LaserScan.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

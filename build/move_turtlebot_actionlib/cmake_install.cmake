@@ -1,8 +1,8 @@
-# Install script for directory: /home/maciek/workspace/catkinws_param/src/move_turtlebot_actionlib
+# Install script for directory: /home/maciek/workspace/catkinws_params/src/move_turtlebot_actionlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_param/install")
+  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_params/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/build/move_turtlebot_actionlib/catkin_generated/installspace/move_turtlebot_actionlib.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/build/move_turtlebot_actionlib/catkin_generated/installspace/move_turtlebot_actionlib.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_turtlebot_actionlib/cmake" TYPE FILE FILES
-    "/home/maciek/workspace/catkinws_param/build/move_turtlebot_actionlib/catkin_generated/installspace/move_turtlebot_actionlibConfig.cmake"
-    "/home/maciek/workspace/catkinws_param/build/move_turtlebot_actionlib/catkin_generated/installspace/move_turtlebot_actionlibConfig-version.cmake"
+    "/home/maciek/workspace/catkinws_params/build/move_turtlebot_actionlib/catkin_generated/installspace/move_turtlebot_actionlibConfig.cmake"
+    "/home/maciek/workspace/catkinws_params/build/move_turtlebot_actionlib/catkin_generated/installspace/move_turtlebot_actionlibConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_turtlebot_actionlib" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/src/move_turtlebot_actionlib/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_turtlebot_actionlib" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/src/move_turtlebot_actionlib/package.xml")
 endif()
 

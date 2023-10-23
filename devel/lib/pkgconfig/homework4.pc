@@ -1,4 +1,4 @@
-prefix=/home/maciek/workspace/catkinws_param/devel
+prefix=/home/maciek/workspace/catkinws_params/devel
 
 Name: homework4
 Description: Description of homework4

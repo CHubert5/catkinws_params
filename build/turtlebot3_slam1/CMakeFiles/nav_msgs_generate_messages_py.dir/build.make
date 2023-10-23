@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_param/src
+CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_params/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_param/build
+CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_params/build
 
 # Utility rule file for nav_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ turtlebot3_slam1/CMakeFiles/nav_msgs_generate_messages_py.dir/build: nav_msgs_ge
 .PHONY : turtlebot3_slam1/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 
 turtlebot3_slam1/CMakeFiles/nav_msgs_generate_messages_py.dir/clean:
-	cd /home/maciek/workspace/catkinws_param/build/turtlebot3_slam1 && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/maciek/workspace/catkinws_params/build/turtlebot3_slam1 && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : turtlebot3_slam1/CMakeFiles/nav_msgs_generate_messages_py.dir/clean
 
 turtlebot3_slam1/CMakeFiles/nav_msgs_generate_messages_py.dir/depend:
-	cd /home/maciek/workspace/catkinws_param/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_param/src /home/maciek/workspace/catkinws_param/src/turtlebot3_slam1 /home/maciek/workspace/catkinws_param/build /home/maciek/workspace/catkinws_param/build/turtlebot3_slam1 /home/maciek/workspace/catkinws_param/build/turtlebot3_slam1/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maciek/workspace/catkinws_params/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_params/src /home/maciek/workspace/catkinws_params/src/turtlebot3_slam1 /home/maciek/workspace/catkinws_params/build /home/maciek/workspace/catkinws_params/build/turtlebot3_slam1 /home/maciek/workspace/catkinws_params/build/turtlebot3_slam1/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot3_slam1/CMakeFiles/nav_msgs_generate_messages_py.dir/depend
 

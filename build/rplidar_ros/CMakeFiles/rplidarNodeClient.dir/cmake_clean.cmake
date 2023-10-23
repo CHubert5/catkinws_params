@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/lib/rplidar_ros/rplidarNodeClient"
-  "/home/maciek/workspace/catkinws_param/devel/lib/rplidar_ros/rplidarNodeClient.pdb"
+  "/home/maciek/workspace/catkinws_params/devel/lib/rplidar_ros/rplidarNodeClient"
+  "/home/maciek/workspace/catkinws_params/devel/lib/rplidar_ros/rplidarNodeClient.pdb"
   "CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
 )
 

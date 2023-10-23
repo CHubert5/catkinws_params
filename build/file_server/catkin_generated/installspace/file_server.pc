@@ -1,4 +1,4 @@
-prefix=/home/maciek/workspace/catkinws_param/install
+prefix=/home/maciek/workspace/catkinws_params/install
 
 Name: file_server
 Description: Description of file_server

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_param/src
+CMAKE_SOURCE_DIR = /home/maciek/workspace/catkinws_params/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_param/build
+CMAKE_BINARY_DIR = /home/maciek/workspace/catkinws_params/build
 
 # Utility rule file for actionlib_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ move_turtlebot_actionlib/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/bui
 .PHONY : move_turtlebot_actionlib/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 
 move_turtlebot_actionlib/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean:
-	cd /home/maciek/workspace/catkinws_param/build/move_turtlebot_actionlib && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/maciek/workspace/catkinws_params/build/move_turtlebot_actionlib && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : move_turtlebot_actionlib/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 
 move_turtlebot_actionlib/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend:
-	cd /home/maciek/workspace/catkinws_param/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_param/src /home/maciek/workspace/catkinws_param/src/move_turtlebot_actionlib /home/maciek/workspace/catkinws_param/build /home/maciek/workspace/catkinws_param/build/move_turtlebot_actionlib /home/maciek/workspace/catkinws_param/build/move_turtlebot_actionlib/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maciek/workspace/catkinws_params/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maciek/workspace/catkinws_params/src /home/maciek/workspace/catkinws_params/src/move_turtlebot_actionlib /home/maciek/workspace/catkinws_params/build /home/maciek/workspace/catkinws_params/build/move_turtlebot_actionlib /home/maciek/workspace/catkinws_params/build/move_turtlebot_actionlib/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : move_turtlebot_actionlib/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 

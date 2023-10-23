@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/lib/file_server/file_server"
-  "/home/maciek/workspace/catkinws_param/devel/lib/file_server/file_server.pdb"
+  "/home/maciek/workspace/catkinws_params/devel/lib/file_server/file_server"
+  "/home/maciek/workspace/catkinws_params/devel/lib/file_server/file_server.pdb"
   "CMakeFiles/file_server.dir/src/file_server.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/file_server/srv/GetBinaryFile.js"
-  "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/file_server/srv/SaveBinaryFile.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/file_server/srv/GetBinaryFile.js"
+  "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/file_server/srv/SaveBinaryFile.js"
   "CMakeFiles/file_server_generate_messages_nodejs"
 )
 

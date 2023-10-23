@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/share/roseus/ros/file_server/manifest.l"
-  "/home/maciek/workspace/catkinws_param/devel/share/roseus/ros/file_server/srv/GetBinaryFile.l"
-  "/home/maciek/workspace/catkinws_param/devel/share/roseus/ros/file_server/srv/SaveBinaryFile.l"
+  "/home/maciek/workspace/catkinws_params/devel/share/roseus/ros/file_server/manifest.l"
+  "/home/maciek/workspace/catkinws_params/devel/share/roseus/ros/file_server/srv/GetBinaryFile.l"
+  "/home/maciek/workspace/catkinws_params/devel/share/roseus/ros/file_server/srv/SaveBinaryFile.l"
   "CMakeFiles/file_server_generate_messages_eus"
 )
 

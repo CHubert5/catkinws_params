@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/include/file_server/GetBinaryFile.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/file_server/SaveBinaryFile.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/file_server/GetBinaryFile.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/file_server/SaveBinaryFile.h"
   "CMakeFiles/file_server_generate_messages_cpp"
 )
 

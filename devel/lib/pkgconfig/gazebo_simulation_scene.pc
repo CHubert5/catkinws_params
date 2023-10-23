@@ -1,4 +1,4 @@
-prefix=/home/maciek/workspace/catkinws_param/devel
+prefix=/home/maciek/workspace/catkinws_params/devel
 
 Name: gazebo_simulation_scene
 Description: Description of gazebo_simulation_scene

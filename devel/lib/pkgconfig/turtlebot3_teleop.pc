@@ -1,4 +1,4 @@
-prefix=/home/maciek/workspace/catkinws_param/devel
+prefix=/home/maciek/workspace/catkinws_params/devel
 
 Name: turtlebot3_teleop
 Description: Description of turtlebot3_teleop

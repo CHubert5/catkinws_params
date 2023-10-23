@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Action.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionFeedback.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionGoal.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionResult.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Feedback.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Goal.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Result.py"
-  "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/turtlebot3_example/msg/__init__.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Action.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionFeedback.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionGoal.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionResult.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Feedback.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Goal.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Result.py"
+  "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/turtlebot3_example/msg/__init__.py"
   "CMakeFiles/turtlebot3_example_generate_messages_py"
 )
 

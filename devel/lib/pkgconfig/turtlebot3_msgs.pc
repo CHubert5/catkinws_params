@@ -1,8 +1,8 @@
-prefix=/home/maciek/workspace/catkinws_param/devel
+prefix=/home/maciek/workspace/catkinws_params/devel
 
 Name: turtlebot3_msgs
 Description: Description of turtlebot3_msgs
 Version: 1.0.1
-Cflags: -I/home/maciek/workspace/catkinws_param/devel/include
+Cflags: -I/home/maciek/workspace/catkinws_params/devel/include
 Libs: -L${prefix}/lib 
 Requires: std_msgs message_runtime

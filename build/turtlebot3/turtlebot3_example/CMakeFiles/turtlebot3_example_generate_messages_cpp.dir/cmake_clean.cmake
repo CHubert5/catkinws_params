@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_example/Turtlebot3Action.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_example/Turtlebot3ActionFeedback.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_example/Turtlebot3ActionGoal.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_example/Turtlebot3ActionResult.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_example/Turtlebot3Feedback.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_example/Turtlebot3Goal.h"
-  "/home/maciek/workspace/catkinws_param/devel/include/turtlebot3_example/Turtlebot3Result.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_example/Turtlebot3Action.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_example/Turtlebot3ActionFeedback.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_example/Turtlebot3ActionGoal.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_example/Turtlebot3ActionResult.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_example/Turtlebot3Feedback.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_example/Turtlebot3Goal.h"
+  "/home/maciek/workspace/catkinws_params/devel/include/turtlebot3_example/Turtlebot3Result.h"
   "CMakeFiles/turtlebot3_example_generate_messages_cpp"
 )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/maciek/workspace/catkinws_param/src/file_server
+# Install script for directory: /home/maciek/workspace/catkinws_params/src/file_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_param/install")
+  set(CMAKE_INSTALL_PREFIX "/home/maciek/workspace/catkinws_params/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,55 +39,55 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/file_server/srv" TYPE FILE FILES
-    "/home/maciek/workspace/catkinws_param/src/file_server/srv/GetBinaryFile.srv"
-    "/home/maciek/workspace/catkinws_param/src/file_server/srv/SaveBinaryFile.srv"
+    "/home/maciek/workspace/catkinws_params/src/file_server/srv/GetBinaryFile.srv"
+    "/home/maciek/workspace/catkinws_params/src/file_server/srv/SaveBinaryFile.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/file_server/cmake" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/build/file_server/catkin_generated/installspace/file_server-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/file_server/cmake" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/build/file_server/catkin_generated/installspace/file_server-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_param/devel/include/file_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_params/devel/include/file_server")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_param/devel/share/roseus/ros/file_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_params/devel/share/roseus/ros/file_server")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_param/devel/share/common-lisp/ros/file_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_params/devel/share/common-lisp/ros/file_server")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_param/devel/share/gennodejs/ros/file_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_params/devel/share/gennodejs/ros/file_server")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/file_server")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/file_server")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_param/devel/lib/python3/dist-packages/file_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/maciek/workspace/catkinws_params/devel/lib/python3/dist-packages/file_server")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/build/file_server/catkin_generated/installspace/file_server.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/build/file_server/catkin_generated/installspace/file_server.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/file_server/cmake" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/build/file_server/catkin_generated/installspace/file_server-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/file_server/cmake" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/build/file_server/catkin_generated/installspace/file_server-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/file_server/cmake" TYPE FILE FILES
-    "/home/maciek/workspace/catkinws_param/build/file_server/catkin_generated/installspace/file_serverConfig.cmake"
-    "/home/maciek/workspace/catkinws_param/build/file_server/catkin_generated/installspace/file_serverConfig-version.cmake"
+    "/home/maciek/workspace/catkinws_params/build/file_server/catkin_generated/installspace/file_serverConfig.cmake"
+    "/home/maciek/workspace/catkinws_params/build/file_server/catkin_generated/installspace/file_serverConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/file_server" TYPE FILE FILES "/home/maciek/workspace/catkinws_param/src/file_server/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/file_server" TYPE FILE FILES "/home/maciek/workspace/catkinws_params/src/file_server/package.xml")
 endif()
 
